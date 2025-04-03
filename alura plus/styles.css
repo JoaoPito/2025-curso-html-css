@@ -40,7 +40,7 @@ body {
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
-    margin: 1em;
+    margin: 1em 0;
 }
 
 .botao_secundario {
@@ -64,4 +64,35 @@ body {
 
 .container__caixa {
     margin: 0 6em;
+}
+
+.secundario {
+    margin: 0 10em;
+    align-items: center;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.descricao__titulo { 
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--branco-principal);
+    margin-bottom: 0.125em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+    font-weight: 400;
+    font-size: 16px
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao {
+    padding: 2em;
 }
